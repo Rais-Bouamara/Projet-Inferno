@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.flex{/*rendre flexible un parent c rendre flexible ses enfant*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.button{
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 15px;
+    display: inline-block;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-primary{
+    font-size: 25px;
+}
+.btn-secondary{
+    font-size: 14px;
+}
+.container-1000{
+     max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    
+    
+    
+
+
+/*classes de dimenssions*/
+
+.w-100{
+    width: 100%;
+}
+
+.w-48{
+    width: 48%;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.w-33{
+    width: 33%;
+}
+
+.w-25{
+    width: 25%;
+}
+
+
