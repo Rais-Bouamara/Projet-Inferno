@@ -1,32 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
 * {
     box-sizing: border-box;
     padding: 0;
-    
+    margin: 0;
+
 }
 
-.flex{/*rendre flexible un parent c rendre flexible ses enfant*/
+body {
+    font-size: 14px;
+
+    font-family: "Jost", sans-serif
+}
+
+h1 {
+    font-size: 35px;
+    font-family: "DM Serif Display", serif;
+}
+
+h2 {
+    font-size: 20px;
+     font-family: "DM Serif Display", serif;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.flex {
+    /*rendre flexible un parent c rendre flexible ses enfant*/
     display: flex;
     flex-wrap: wrap;
 }
 
-.space-between{
+.space-between {
     justify-content: space-between;
 }
 
-.space-around{
+.space-around {
     justify-content: space-around;
 }
 
-.justify-center{
+.justify-center {
     justify-content: center;
 }
 
-.align-center{
+.align-center {
     align-items: center;
 }
 
-.button{
-    background-color: gray;
+.button {
+    background-color: black;
     border-radius: 5px;
     color: white;
     padding: 5px 15px;
@@ -35,84 +62,82 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.btn-primary{
-    font-size: 25px;
-}
-.btn-secondary{
-    font-size: 14px;
-}
-.container-1000{
-     max-width: 1000px;
+
+.container-1000 {
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.container-500{
+.container-500 {
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
-} 
- 
+}
+
 /*classes de dimenssions*/
 
-.w-100{
+.w-100 {
     width: 100%;
 }
 
-.w-48{
+.w-48 {
     width: 48%;
 }
 
-.w-50{
+.w-50 {
     width: 50%;
 }
-
-.w-33{
+.w-40{
+    width: 40%;
+}
+.w-33 {
     width: 33%;
 }
 
-.w-25{
+.w-25 {
     width: 25%;
 }
 
-a{
+.w-10{
+    width: 10%;
+}
+
+a {
     text-decoration: none;
     color: black;
-    
-    
+
+
 }
-.txtwhite{
-    color: whitesmoke;
+
+.txtwhite {
+    color: white;
 }
-.margin-top100{
+
+.margin-top100 {
     margin-top: 100px;
 }
-.card{
-    box-shadow: 5px 5px 10px gray;
+
+.card {
+    background-color: white;
     border-radius: 20px;
     padding: 20px;
-    
+
 }
-.cardh3{
+
+.cardh3 {
     margin-top: 20px;
 }
-.cardp{
+
+.cardp {
     margin-bottom: 20px;
 }
+
 /*section hero*/
 
-.section-hero{
-    background-image:url(asset/photo-1510915228340-29c85a43dcfe.avif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-}
 
-.section-hero div{
-    
-    text-align: center;
-}
+
+
 
 /*h1{
     margin-bottom: 20px;
@@ -122,31 +147,85 @@ a{
 
 }*/
 
-.section-hero div>p{
-    margin-bottom: 50px;
-    font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: whitesmoke;
-}
-.ombre{
-    box-shadow: 0px 0px 5px gray;
- }
-.police{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
-.suppuce{
+.ombre {
+    box-shadow: 0px 0px 5px gray;
+}
+
+.police {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.suppuce {
     list-style: none;
 }
 
-.section-hero{
-    background-image:url(assets-interno/assets-interno/Banner.jpg);
+.section-hero {
+    background-image: url(assets-interno/assets-interno/Banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 150vh;
-    border-radius: 0% 0% 0% 30%;
+    height: 90vh;
+    border-radius: 0px 0px 0px 150px;
 }
 
-.section-hero-div{
-    
+.section-hero-div {
+
     text-align: center;
+}
+
+.margin-left {
+    margin-left: 5%
+}
+
+.margin-top10 {
+    margin-top: 10%;
+}
+
+.goldarrow {
+    color: #CDA274;
+}
+
+.borderradius1{
+    border-radius: 0px 250px 0px 50px;
+}
+
+.borderradius2{
+    border-radius: 0px 50px 0px 0px ;
+}
+
+.borderradius3{
+border-radius: 50px 0px 0px 0px ;
+}
+
+.borderradius4{
+border-radius: 0px 0px 50px 0px ;
+}
+
+.borderradius5{
+border-radius: 0px 0px 0px 50px ;
+}
+
+.bg-gold{
+    background-color: #F4F0EC;
+}
+
+.txtcenter{
+    text-align: center;
+}
+
+.padding25{
+    padding: 25vh;
+}
+
+.bg-bluck{
+    background-color: #292F36;
+}
+
+.padding10{
+    padding: 10vh;
+}
+
+.padding5{
+    padding: 5vh;
 }
